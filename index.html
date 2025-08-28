@@ -6,11 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>.start</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styless.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <canvas id="canvas1"></canvas>
     <div class="wrapper">
-        <h1>text</h1>
+
+        <p class="line1">&#91;&nbsp;&ldquo;WARNING!&rdquo;,<span class="cursor1">_</span></p>
+        <p class="line2">&nbsp;&nbsp;&ldquo;INTRUSION DETECTED.&rdquo;,<span class="cursor2">_</span></p>
+        <p class="line3">&nbsp;&nbsp;&ldquo;PROCEED ANYWAYS?&rdquo;&nbsp;&#93;<span class="cursor3">_</span></p>
+        <p class="line4">><span class="cursor4">_</span></p>
+
         <button id="cybr-btn" class="cybr-btn">Enter<span aria-hidden></span><span aria-hidden class="cybr-btn__glitch">Enter</span>
         </button>
     </div>
@@ -19,6 +28,7 @@
     <script type="text/javascript">
         document.getElementById("cybr-btn").onclick = function () {location.href = "main.html";
     };
+    
 </script>
 </body>
 </html>
