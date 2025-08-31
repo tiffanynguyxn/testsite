@@ -28,9 +28,15 @@
   position: absolute;
 }
 
+.container {
+  display: relative;
+  justify-content: right;
+}
+
 nav {
   display: block;
 }
+
 #canvas1{
   display: block;
   position: absolute;
