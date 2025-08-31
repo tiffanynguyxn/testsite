@@ -28,6 +28,9 @@
   position: absolute;
 }
 
+nav {
+  display: block;
+}
 #canvas1{
   display: block;
   position: absolute;
